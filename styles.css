@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/* ABOUT ME */
+
+.about-me-container {
+  align-items: center;
+  max-width: 900px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.text--green{
+  color: #9dc183; 
+}
+
+.picture-of-us {
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-radius: 100px;
+  max-width: 900px;
+}
+
+.body {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: 25px;
+
+}
+
+.carousel-inner{
+  max-width: 700px;
+  padding-top: 50px;
+}
+
+.carousel 
+
+h5 {
+color: whitesmoke;
+background-color: rgba(108, 122, 137, .8);
+
+}
+
+h3 {
+  padding-bottom: 50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
