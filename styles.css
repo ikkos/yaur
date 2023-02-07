@@ -101,8 +101,9 @@ p2 {
   display: none;
 }
 
-#reveal-button:active + #rose {
+#reveal-button:active + #rose + #text {
   display: block;
+  display: contents;
 }
 
 button {
