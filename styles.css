@@ -15,7 +15,33 @@ img {
 }
 
 
+.parallax {
+  /* The image used */
+  background-image: url('images/hanging.png');
 
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url('images/chilling.png');
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 
 .parallax2 {
@@ -23,7 +49,7 @@ img {
   background-image: url('images/walking.png');
 
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 400px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -75,16 +101,11 @@ p2 {
   display: none;
 }
 
-#reveal-button:active + #rose + #text + #no-button + #yes-button {
+#reveal-button:active + #rose + #text {
   display: block;
   display: contents;
 }
 
-#reveal-button {
+button {
   align-self: center;
-}
-
-#no-button:active {
-  display: block;
-  display: contents;
 }
